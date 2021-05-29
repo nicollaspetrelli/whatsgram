@@ -1,0 +1,283 @@
+*:focus {
+    outline: none;
+}
+
+body {
+    color: white;
+    background-color: #1F2936;
+}
+
+header {
+    background-color: #1F2936;
+    height          : 59px;
+    padding         : 7px 0px 9px 7px;
+    padding-left: 12px;
+}
+
+.row {
+    max-width: 100vw;
+    margin   : 0;
+    padding  : 0;
+}
+
+.top-left-container {
+    margin-left : 15px !important;
+    margin-right: 25px !important;
+}
+
+.list-group {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height    : calc(100vh - 108px) !important;
+}
+
+.list-group-item {
+    height      : 72px;
+    border-radius: 0 !important;
+}
+
+/* Contact Hover */
+div.list-group a.list-group-item.list-group-item-action.d-flex:hover {
+    background-color: #202B36;
+}
+
+/* Contact Active Class */
+div.list-group a.list-group-item.list-group-item-action.d-flex.active {
+    background-color: #2B5278;
+}
+
+div.list-group a.list-group-item.list-group-item-action.d-flex.active div.d-flex.flex-fill.justify-content-between.align-items-center.m-0.p-0 div.d-flex.flex-column.top-text.flex-fill div small.small-text {
+    color: white;
+    font-weight: bold;
+}
+
+div.list-group a.list-group-item.list-group-item-action.d-flex.active div.d-flex.flex-fill.justify-content-between.align-items-center.m-0.p-0 div.d-flex.flex-column.top-text.flex-fill span.contact {
+    color: white;
+    font-weight: bold;
+}
+
+.badge {
+    margin-top   : 5px;
+    border-radius: 100% !important;
+}
+
+#left-painel {
+    border-right: 1px solid #0A121B !important;
+    box-shadow  : 2px 2px 1px black !important;
+}
+
+.search {
+    height          : 49px;
+    background-color: #17212B;
+    color           : #708499;
+    position        : relative;
+}
+
+#search-input {
+    display      : block;
+    height       : 35px;
+    border-radius: 30px;
+    border       : none;
+    width        : 430px;
+    padding      : 15px;
+    padding-left : 60px;
+    background-color: #242F3D;
+    color           : #708499;
+    
+}
+
+#glass {
+    position : absolute;
+    left     : 30px;
+    font-size: 0.9em;
+    color: #708499;
+}
+
+.top-text {
+    padding-left: 16px;
+    cursor      : pointer;
+    color: #dadada;
+}
+
+.contact-img {
+    height: 40px;
+    cursor: pointer;
+}
+
+.contactlist-img {
+    height: 49px;
+}
+
+div.list-group > a.list-group-item.list-group-item-action {
+    background-color: #1F2936;
+}
+
+.top-icons {
+    margin-right: 45px;
+    width       : 120px;
+}
+
+.contact {
+    font-size: 1em;
+}
+
+.small-text {
+    color: #5f5f5f;
+}
+
+.fas,
+.far {
+    color      : #919191;
+    font-weight: 400;
+    font-size  : 1.2em;
+    cursor     : pointer;
+}
+
+.fa-grin,
+.fa-microphone {
+    font-size: 1.4em;
+}
+
+.fa-check-double {
+    font-size   : 0.8em;
+    margin-right: 5px;
+    color       : #b2b2b2;
+    font-weight : 400;
+}
+
+.check {
+    color: #6BAFEA;
+}
+
+#message-input {
+    border       : none;
+    border-radius: 25px;
+    height       : 42px;
+    min-width    : 800px;
+    padding      : 10px;
+    color        : #708499;
+    background-color: #242F3D;
+}
+
+/* In others browsers it is usefull */
+#message-input:placeholder,
+#search-input:placeholder {
+    color: #708499;
+}
+
+.badge-color {
+    background-color: #6BAFEA;
+}
+
+.footer-div {
+    padding-left : 20px;
+    padding-right: 20px;
+}
+
+
+main {
+    /* height          : 200px; */
+    height          : calc(100vh - 121px);
+    background-color: #0E1621;
+}
+
+footer,
+.footer-div {
+    background-color: #1F2936;
+    height          : 62px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #cccccc;
+}
+
+/* Main Content Chat */
+.conversation {
+    margin: 0 1em;
+}
+
+/* Sender Messages */
+.sender-message {
+    max-width: 450px;
+    min-height: 38px;
+}
+
+.sender {
+    background-color: #182533;
+    padding: 10px 20px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    clear: both;
+    float: left;
+    line-height: 21px;
+}
+
+.sender > div {
+    font-size: 12px;
+    color: #6D7F8F;
+    float: right;
+    margin-left: 5px;
+}
+
+.sender > div > svg {
+    width: 20px;
+}
+
+.sender > p {
+    margin: 0;
+    display: inline;
+}
+
+.sender-name {
+    color: #6BAFEA;
+    font-weight: bolder;
+    margin-bottom: .4em;
+    margin-left: .3em;
+}
+
+/* Reciver Messages */
+.reciver {
+    background-color: #2B5278;
+    padding: 10px 20px;
+    border-radius: 5px;
+    clear: both;
+    float: right;
+    max-width: 450px;
+    min-height: 38px;
+    line-height: 21px;
+}
+
+.reciver > div {
+    font-size: 12px;
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.692);
+    float: right;
+}
+
+.reciver > div > svg {
+    width: 20px;
+}
+
+.reciver > p {
+    margin: 0;
+    display: inline;
+}
+
+.reciver-name {
+    text-align: end;
+    color: #6BAFEA;
+    font-weight: bolder;
+    margin-bottom: .4em;
+    margin-right: .3em;
+}
