@@ -189,17 +189,18 @@ footer,
 
 /* width */
 ::-webkit-scrollbar {
-    width: 3px;
+    width: 10px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: white;
+    background: #17212b;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #cccccc;
+    background: #242f3d;
+    border-radius: 15px;
 }
 
 /* Main Content Chat */
